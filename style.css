@@ -1,0 +1,202 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+ 
+  .footer{
+    background: #152F4F;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+
+
+  /* Testimonial CSS Code Start */
+/* background */
+.carousel-bg {
+    background-color: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /* quote */
+  .quote-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-top: 60px;
+    width: 80px;
+  }
+  /* text-style */
+  .testimonial-style .testimonial-caption-style {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #354052;
+    line-height: 30px;
+    bottom: 40%;
+    text-shadow: none;
+    top: 10%;
+  }
+  .testimonial-style .testimonial-authors {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: #354052;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+  /* carousel-height-control */
+  .testimonial-style .carousel-inner > .item {
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 380px;
+  }
+  /* carousel-left-right-control */
+  .testimonial-style .carousel-control.left {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .testimonial-style .carousel-control.right {
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .testimonial-style .carousel-control {
+    color: #354052;
+  }
+  .testimonial-style .carousel-control:hover {
+    color: #354052;
+    text-decoration: none;
+    transition: background-color 1s ease;
+  }
+  /* indicators */
+  .testimonial-style .carousel-indicators .active {
+    background-color: #fff;
+    width: 14px;
+    height: 14px;
+    transition: background 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  .testimonial-style .carousel-indicators li {
+    border: 2px solid #354052;
+    background-color: #354052;
+  }
+  /* Textimonial CSS Code End */
+
+
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+  .service-36 {
+    font-family: "Montserrat", sans-serif;
+    color: #50535a;
+    font-weight: 300;
+  }
+  
+  .service-36 h1,
+  .service-36 h2,
+  .service-36 h3,
+  .service-36 h4,
+  .service-36 h5,
+  .service-36 h6 {
+    color: #292c33;
+  }
+
+  .service-36 h3 {
+      font-size: 5rem;
+  }
+
+  .service-36 .subtitle {
+      font-size: larger;
+  }
+  
+  .service-36 .bg-light {
+    background-color: #707070 !important;
+  }
+  
+  .service-36 .subtitle {
+    color: #353638;
+    line-height: 24px;
+  }
+  
+  .service-36.wrap-service36-box {
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  
+  .service-36 .bg-success-gradiant {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  }
+  
+  .service-36 .btn-success-gradiant {
+          background: #2cdd9b;
+      background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+      background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+      background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+      background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  }
+  
+  .service-36 .btn-success-gradiant:hover {
+          background: #1dc8cc;
+      background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #2cdd9b 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#2cdd9b));
+      background: -webkit-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+      background: -o-linear-gradient(left, #1dc8cc 0%, #2cdd9b 100%);
+      background: linear-gradient(to right, #1dc8cc 0%, #2cdd9b 100%);
+  }
+  
+  .service-36 .btn-md {
+      padding: 15px 45px;
+      font-size: 16px;
+  }
+  
+  .service-36 .stick-bottom {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .service-36 .stick-bottom>span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+    display: inline-block;
+  }
+
+  hr {
+      background-color: none;
+      width: 0;
+  }
